@@ -26,7 +26,5 @@ public class RowGeneration : MonoBehaviour
         {
             Console.WriteLine(i);
         }
-
-       
     }
 }
