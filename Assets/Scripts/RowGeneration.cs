@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System;
 
 public class RowGeneration : MonoBehaviour
 {
@@ -20,6 +21,12 @@ public class RowGeneration : MonoBehaviour
     public void RowGenerate()
     {
         int num = int.Parse(SquareNumberInput.text);
-        Debug.Log(num);
+
+        for (int i = 0; i < num; i++)
+        {
+            Console.WriteLine(i);
+        }
+
+       
     }
 }
